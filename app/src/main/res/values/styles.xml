@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base">
+
+    </style>
+
+
+        <style name="AppTheme.Base" parent="Theme.AppCompat.NoActionBar">
+            <!-- MaterialDrawerTheme.Light.DarkToolbar.TranslucentStatus -->
+            <!-- colorPrimary is used for the default action bar background -->
+            <item name="colorPrimary">@color/colorPrimary</item>
+
+            <!-- colorPrimaryDark is used for the status bar -->
+            <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+            <!-- colorAccent is used as the default value for colorControlActivated,
+                 which is used to tint widgets -->
+            <item name="colorAccent">@color/colorAccent</item>
+
+            <!-- You can also set colorControlNormal, colorControlActivated
+                 colorControlHighlight, and colorSwitchThumbNormal. -->
+
+            <item name="colorControlNormal">@android:color/white</item>
+
+
+        </style>
+
+        <style name="Theme.MyThemeBottom" parent="AppTheme.Base">
+            <!-- item name="colorPrimary">@android:color/white</item -->
+        </style>
+
+
+
+        <style name="myCustomToolbarTheme" parent="Theme.AppCompat.NoActionBar">
+            <item name="colorPrimary">@color/colorPrimary</item>
+            <item name="android:textColorPrimary">@android:color/white</item>
+            <item name="android:textColorSecondary">@android:color/white</item>
+            <item name="android:textColorHint">@android:color/white</item>
+            <item name="colorControlActivated">@android:color/white</item>
+        </style>
+
+
+
+        <!-- CONTACT ACTIVITY -->
+        <style name="Theme.ContactActivity.Toolbar.BackArrow" parent="AppTheme.Base">
+            <item name="colorControlNormal">@android:color/white</item>
+        </style>
+
+        <style name="Theme.ContactActivity" parent="AppTheme.Base">
+            <item name="colorControlNormal">@color/colorSecondText</item>
+            <item name="colorControlActivated">@color/colorPrimary</item>
+        </style>
+    <style name="btnStyle" parent="@android:style/Widget.Button">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:gravity">center</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">0.6</item>
+        <item name="android:background">@drawable/button_shape</item>
+        <item name="android:padding">1dip</item>
+    </style>
+
+
+    <style name="DashboardButton">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:drawablePadding">2dp</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@null</item>
+    </style>s
+</resources>

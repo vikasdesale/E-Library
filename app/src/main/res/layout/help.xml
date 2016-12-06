@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@android:color/white"
+
+    tools:context="com.vikas.elibrary.activity.Help">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/share"
+        android:layout_marginLeft="8dp"
+
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textTitle"
+        android:id="@+id/imgShare" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="This allows you to shares the book,video,audio lectures inside the library with your friends."
+        android:layout_marginTop="20dp"
+        android:id="@+id/textShare"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/textTitle"
+        android:layout_toRightOf="@+id/imgShare"
+        android:layout_centerHorizontal="true" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/down"
+        android:layout_marginLeft="8dp"
+
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textShare"
+        android:id="@+id/imgDownload" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="1.This allows you to download the book,video,audio lectures.\n2.second way to download is click on image of corresponding video,book,audio lecture."
+        android:layout_marginTop="20dp"
+        android:id="@+id/textDownload"
+        android:layout_marginRight="8dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/textShare"
+        android:layout_toRightOf="@+id/imgDownload"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Note:The Books are sorted when you come back to main menu and again click on the menu to be sort."
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="8dp"
+
+        android:id="@+id/textRefresh"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/textDownload"
+        android:layout_toRightOf="@+id/imgDownload"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Thank You!"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="8dp"
+        android:textStyle="bold"
+        android:id="@+id/textTnak1"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/textRefresh"
+        android:layout_toRightOf="@+id/imgDownload"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        android:text="Virtual Library Help"
+        android:id="@+id/textTitle"
+        android:layout_below="@+id/app_bar"
+        android:layout_centerHorizontal="true" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="228dp"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="55dp" />
+</RelativeLayout>

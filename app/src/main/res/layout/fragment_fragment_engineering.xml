@@ -1,0 +1,60 @@
+
+<com.vikas.elibrary.fragments.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#f8f9fe"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.vikas.elibrary.fragments.FragmentOneT">
+    <!--  News Feed Button -->
+    <Button
+        android:id="@+id/btn_me"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/me"
+        android:text="me"
+        android:textSize="0sp" />
+
+    <!--  Friends Button -->
+    <Button
+        android:id="@+id/btn_ce"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/ce"
+        android:text="ce"
+        android:textSize="0sp"/>
+
+    <!--  Messages Button -->
+    <Button
+        android:id="@+id/btn_ee"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/ee"
+        android:text="ee"
+        android:textSize="0sp"/>
+
+    <!--  Places Button -->
+    <Button
+        android:id="@+id/btn_entc"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/entc"
+        android:text="entc"
+        android:textSize="0sp" />
+
+    <!--  Events Button -->
+    <Button
+        android:id="@+id/btn_cse"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/cse"
+        android:text="cse"
+        android:textSize="0sp" />
+
+    <!--  Photos Button -->
+    <Button
+        android:id="@+id/btn_it"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/it"
+        android:text="it"
+        android:textSize="0sp" />
+
+</com.vikas.elibrary.fragments.DashboardLayout>
+
+

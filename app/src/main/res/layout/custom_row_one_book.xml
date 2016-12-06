@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@drawable/custom_book_list"
+    android:paddingBottom="@dimen/size_byte"
+    android:paddingLeft="@dimen/size_word"
+    android:paddingRight="@dimen/size_word"
+    android:paddingTop="@dimen/size_byte"
+    android:fitsSystemWindows="true">
+
+    <ImageView
+        android:id="@+id/imageBook"
+        android:layout_width="54dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="@dimen/word"
+        android:src="@drawable/a_icon" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/down"
+        android:id="@+id/download"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_below="@+id/bookMediam"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+      />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share"
+        android:id="@+id/share"
+        android:src="@drawable/share"
+        android:layout_marginLeft="8dp"
+        android:layout_below="@+id/bookMediam"
+        android:layout_toLeftOf="@+id/download"
+        android:layout_toStartOf="@+id/download" />
+
+
+
+    <TextView
+        android:id="@+id/bookTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:padding="@dimen/half_byte"
+        android:textColor="@color/black"
+        android:text="Wings Of Fire"
+        android:textSize="@dimen/sizeTextPrimary"
+        android:layout_alignTop="@+id/imageBook"
+
+        android:layout_alignRight="@+id/bookMediam"
+        android:layout_alignEnd="@+id/bookMediam"
+ />
+
+
+    <TextView
+        android:id="@+id/bookMediam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/bookTitle"
+        android:padding="@dimen/half_byte"
+        android:textColor="@color/black"
+        android:text="Marathi"
+        android:textSize="@dimen/sizeTextSecondary" />
+
+    <RatingBar
+
+        android:id="@+id/ratingBar"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:isIndicator="true"
+        android:max="5"
+        android:numStars="0"
+        android:layout_above="@+id/share"
+        android:layout_toLeftOf="@+id/bookMediam"
+        android:layout_toStartOf="@+id/bookTitle" />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@android:color/white"
+    tools:context="com.vikas.elibrary.activity.AboutUs">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fb"
+        android:src="@drawable/ic_facebook"
+
+        android:layout_alignTop="@+id/textView2"
+        android:layout_toLeftOf="@+id/textView"
+        android:layout_toStartOf="@+id/textView"
+        android:layout_marginRight="26dp"
+        android:layout_marginEnd="26dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/wt"
+        android:src="@drawable/ic_whatsapp"
+        android:layout_below="@+id/fb"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ln"
+        android:src="@drawable/ic_linkedin"
+
+        android:layout_above="@+id/wt"
+        android:layout_toRightOf="@+id/textView2"
+        android:layout_toEndOf="@+id/textView2"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gp"
+        android:src="@drawable/ic_google_plus"
+
+        android:layout_alignTop="@+id/wt"
+        android:layout_alignLeft="@+id/fb"
+        android:layout_alignStart="@+id/fb" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/youtube"
+        android:src="@drawable/ic_youtube"
+        android:layout_alignTop="@+id/wt"
+        android:layout_alignLeft="@+id/ln"
+        android:layout_alignStart="@+id/ln" />
+
+     " />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Developed By"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/textView"
+        android:layout_above="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Vikas Desale"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/textView2"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView" />
+
+</RelativeLayout>

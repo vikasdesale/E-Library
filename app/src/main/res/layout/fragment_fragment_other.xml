@@ -1,0 +1,74 @@
+
+<com.vikas.elibrary.fragments.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#f8f9fe"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.vikas.elibrary.fragments.FragmentOneT">
+    <!--  News Feed Button -->
+    <Button
+        android:id="@+id/btn_marathi"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/marathi"
+        android:text="marathi"
+        android:textSize="0sp" />
+
+    <!--  Friends Button -->
+    <Button
+        android:id="@+id/btn_hindi"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/hindi"
+        android:text="hindi"
+        android:textSize="0sp" />
+
+    <!--  Messages Button -->
+    <Button
+        android:id="@+id/btn_urdu"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/urdu"
+        android:text="urdu"
+        android:textSize="0sp" />
+
+    <!--  Places Button -->
+    <Button
+        android:id="@+id/btn_novels"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/novels"
+        android:text="novels"
+        android:textSize="0sp" />
+
+    <!--  Events Button -->
+    <Button
+        android:id="@+id/btn_motivation"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/motivation"
+        android:text="motivation"
+        android:textSize="0sp"/>
+
+    <!--  Photos Button -->
+    <Button
+        android:id="@+id/btn_romance"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/romance"
+        android:text="romance"
+        android:textSize="0sp"/>
+    <Button
+        android:id="@+id/btn_shayari"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/shayari"
+        android:text="shayari"
+        android:textSize="0sp" />
+
+    <!--  Friends Button -->
+    <Button
+        android:id="@+id/btn_story"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/story"
+        android:text="story"
+        android:textSize="0sp"/>
+
+</com.vikas.elibrary.fragments.DashboardLayout>
+
+

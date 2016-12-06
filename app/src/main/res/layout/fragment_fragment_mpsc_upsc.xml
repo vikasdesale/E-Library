@@ -1,0 +1,55 @@
+
+<com.vikas.elibrary.fragments.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#f8f9fe"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.vikas.elibrary.fragments.FragmentOneT">
+
+    <Button
+        android:id="@+id/btn_mpsc"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/mpsc"
+        android:text="mpscqp"
+        android:textSize="0sp" />
+
+    <Button
+        android:id="@+id/btn_upsc"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/upsc"
+        android:text="upscqp"
+        android:textSize="0sp"/>
+
+    <Button
+        android:id="@+id/btn_playv"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/playv"
+        android:text="vlect"
+        android:textSize="0sp"/>
+
+    <Button
+        android:id="@+id/btn_lect"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/lect"
+        android:text="alect"
+        android:textSize="0sp" />
+
+    <Button
+        android:id="@+id/btn_spbooks"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/spbooks"
+        android:text="spbook"
+        android:textSize="0sp" />
+
+    <Button
+        android:id="@+id/btn_other"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/other"
+        android:text="otherm"
+        android:textSize="0sp"/>
+
+</com.vikas.elibrary.fragments.DashboardLayout>
+
+

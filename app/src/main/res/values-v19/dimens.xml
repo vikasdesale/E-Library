@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_bar_top_padding">0dp</dimen>
+    <dimen name="drawer_margin_top">48dp</dimen>
+    <dimen name="word">5dp</dimen>
+    <dimen name="half_byte">4dp</dimen>
+    <dimen name="sizeTextPrimary">15dp</dimen>
+    <dimen name="sizeTextSecondary">12dp</dimen>
+</resources>
